@@ -21,11 +21,12 @@ This may complain about two files not existing in your directory, exchange.txt, 
 
 An example of this is the following
 ```
-15.03.2023 141.8054
-15.09.2023 136.1201
+15.03.2023 123.456
+15.09.2023 132.456
 ```
+(dummy values, don't copy)
 
-`rsutable.txt` is used to calculate the exchange rate of RSUs from your payslips, since they have already been taxed as income for you. This is so that their valuation matches what the evaulation was. This is keyed by month, and is just the total sale for that month. The script assumes that you have provided as input the complete set of trades that happened during the fiscal year. Note that if you do not do this, the valuation will be way off. Use your discretion!
+`rsutable.txt` is used to calculate the exchange rate of RSUs from your payslips, since they have already been taxed as income for you. This is so that their valuation matches what the evaulation was. This is keyed by month, and is just the total sale for that month. The script assumes that you have provided as input the complete set of trades that happened during the fiscal year. Note that if you do not do this, the valuation will be way off. Use your discretion, and check that the output Gengi is a somewhat reasonable number!
 
 An example of this file is the following
 ```
@@ -34,6 +35,7 @@ An example of this file is the following
 09 123456
 12 123456
 ```
+(dummy values, don't copy)
 
 
 
