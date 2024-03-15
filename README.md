@@ -13,6 +13,8 @@ cd ~/Downloads/taxes2023
 python3 ~/projects/stonktax/extract.py
 ```
 
+The script assumes that all ESPP info is in files matching the glob `getEsppConfirmation*.pdf`, and all RSU info is in files matching the glob `getReleaseConfirmation*.pdf`.
+
 This may complain about two files not existing in your directory, exchange.txt, and rsutable.txt
 
 `exchange.txt` contains the exchange rate USD->ISK for filing ESPP information. Running the script once should tell you which dates to fetch the exchange rate for.
